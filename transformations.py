@@ -5,8 +5,6 @@ import numpy as np
 img = cv.imread('Photos/cats.jpg')
 cv.imshow('Cats', img)
 
-# Translation
-
 
 def translate(img, x, y):
     """Translate an image
